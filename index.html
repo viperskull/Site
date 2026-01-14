@@ -22,54 +22,31 @@
         <ul class="nav nav-pills"> 
           <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li> 
           <li class="nav-item"><a href="#" class="nav-link">Features</a></li> 
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li> 
-          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li> 
+          <li class="nav-item"><a href="#" class="nav-link">Carousel</a></li> 
+          <li class="nav-item"><a href="#" class="nav-link">Album</a></li> 
           <li class="nav-item"><a href="#" class="nav-link">Contact</a></li> 
         </ul> 
       </header>
 
     <main>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/kitty1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Meet Our Adoptable Cats ! </h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/kitty2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Meet Our Adoptable Cats !</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/kitty3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Meet Our Adoptable Cats !</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      
+      <div class="px-4 pt-5 my-5 text-center border-bottom"> 
+        <h1 class="display-4 fw-bold text-body-emphasis">Centered screenshot</h1> 
+        <div class="col-lg-6 mx-auto"> 
+          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p> 
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"> 
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button> 
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> 
+          </div> 
+        </div> 
+        <div class="overflow-hidden" style="max-height: 30vh;"> <div class="container px-5"> 
+          <img src="images/kittens.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="kittens image" width="700" height="500" loading="lazy"> 
+        </div> 
+      </div> 
+    </div>
 
       <div class="container px-4 py-5" id="featured-3"> 
-        <h2 class="pb-2 border-bottom">Welcome ! </h2> 
+        <h2 class="pb-2 border-bottom">Features</h2> 
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
 
           <div class="feature col"> 
@@ -113,7 +90,95 @@
       </div> 
     </div>
 
-    </main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/kitty1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cats All Over The World ! </h5>
+                <p>find your soul feline.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/kitty2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cats All Over The World ! </h5>
+                <p>find your soul feline.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/kitty3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cats All Over The World ! </h5>
+                <p>find your soul feline.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+        <div class="container px-4 py-5" id="custom-cards"> 
+          <h2 class="pb-2 border-bottom">Meow ! </h2> 
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"> 
+            <div class="col"> 
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-picture-1.jpg');"> 
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Cats leave paw prints on your heart.</h3> 
+                    </div> 
+                  </div> 
+                </div> 
+                <div class="col"> 
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-picture-2.jpg');"> 
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Cats have it all!</h3> 
+                    </div> 
+                  </div> 
+                </div> 
+                <div class="col"> 
+                  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-picture-3.jpg');"> 
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1"> 
+                      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">One cat just leads to another.</h3> 
+                    </div> 
+                  </div> 
+                </div> 
+              </div> 
+            </div>
+          </main>
+
+            <div class="container"> 
+              <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
+                <div class="col-md-4 d-flex align-items-center"> 
+                  <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> 
+                    <img src="images/icons/heart-pulse.svg" alt="Meowness brand icon"> 
+                  </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> 
+                </div> 
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> 
+                  <li class="ms-3">
+                    <a class="text-body-secondary" href="#" aria-label="Instagram">
+                      <img src="images/icons/instagram.svg" alt="instagram icon">
+                    </a>
+                  </li> 
+                  <li class="ms-3">
+                    <a class="text-body-secondary" href="#" aria-label="Facebook">
+                      <img src="images/icons/facebook.svg" alt="facebook icon">
+                    </a>
+                  </li> 
+                </ul> 
+              </footer> 
+            </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
